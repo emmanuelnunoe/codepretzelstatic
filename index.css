@@ -1,0 +1,12 @@
+.logo-container {
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  background-image: './img/CoDePretzel_logo_sin_fondo.png';
+  background-repeat: no-repeat;
+  height: auto;
+  width: 30%;
+  max-width: 100%;
+  min-width: 200px;
+}
