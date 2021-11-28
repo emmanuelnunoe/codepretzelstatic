@@ -5,7 +5,7 @@
 .logo {
   background-image: './img/CoDePretzel_logo_sin_fondo.png';
   background-repeat: no-repeat;
-  height: auto;
+  height: 30%;
   width: 30%;
   max-width: 100%;
   min-width: 200px;
@@ -32,4 +32,35 @@
     top: 0;
     width: 100%;
     z-index:1;
+}
+
+body {
+    scroll-behaviour: smooth
+}
+
+/* Footer */
+.custom-footer {
+    background-color:lightgray;
+}
+
+
+/* footer icons*/
+
+.fa, .fab{
+   font-size:4vh;
+}
+
+.fa-facebook {
+    color: rgb(59, 91, 152);
+}
+
+.fa-youtube {
+    color: rgb(196, 48, 43);
+}
+.fa-reddit {
+    color: rgb(255, 86, 0);
+}
+
+.fa-discord{
+    color:rgb(88,101,242)
 }
