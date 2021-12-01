@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CodePretzel</a>
+        <a class="navbar-brand" href="#home"> Code Pretzel</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,23 +39,39 @@
             </ul>
         </div>
     </nav>
-    <div>
-        <div id="home" class="logo-container">
-            <img class="logo mx-auto d-block"
-                 src="./img/CoDePretzel_logo_sin_fondo.png" />
+
+    <div class="container">
+
+        <div id="home" class="logo-container row">
+            <div class="col-xs-12 col-sm-6">
+                <h1 class="home-title" >Comunidad para crear sistemas embebidos por diversion.</h1>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <img class="logo mx-auto d-block"
+                     src="./img/CoDePretzel_logo_sin_fondo.png" />
+            </div>
         </div>
 
-        <div class="container">
-            <div id="objetivo" ">
-                <h2>Objetivo</h2>
-                <p>
+        <div id="objetivo" class="section row objective-wraper">
+            <div class="col-xs-12 col-sm-6 objective-img">
+               
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <i class="fas fa-bullseye objective-icon"></i>
+                <h2 class="section-title">Objetivo</h2>
+                <p class="align-items-start">
                     Proporcionar un lugar donde crear sistemas embebidos, aprender,
                     compartir entre todos, principiantes y avanzados y en el camino,
                     mostrar el talento latinoamericano.
                 </p>
             </div>
-            <div id="sueno">
-                <h2>El sueño de CoDe Pretzel</h2>
+
+
+        </div>
+        <div id="sueno" class="section text-center row dream-wrapper">
+            <div class="col-xs-12 col-sm-6" id="dream-icon">
+                <i class="fas fa-moon"></i>
+                <h2 class="section-title">El sueño de CoDe Pretzel</h2>
                 <p>
                     Es construir una infraestructura que nos permita desarrollar
                     software embebido de calidad, con facilidad de replicación,
@@ -63,44 +79,53 @@
                     definen dicha infraestructura.
                 </p>
             </div>
-            <div id="actividades">
-                <h2>Actividades</h2>
-                <p>
-                    A menos que se especifique lo contrario en el evento en particular
-                    que se esté publicitando, las actividades tienen las siguientes
-                    características. Se realizan en la sección de eventos virtuales en
-                    el canal Sala de reuniones de nuestro servidor de Discord Son los
-                    Sábados a las 12:30 PM hora Tijuana México (PST/PDT)
-                </p>
+            <div class="col-xs-12 col-sm-6 dream-img">
+   
             </div>
-            <h2 id="historia">Historia</h2>
-            <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/yBSf19HaA8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
         </div>
-    </div>
-    <footer id="siguenos" class="footer mt-5 text-center custom-footer">
-        <div class="container">
-            <a class="btn" href="https://www.facebook.com/CoDePretzel/">
-                <i class="fab fa-facebook"> </i>
-            </a>
-            <a class="btn" href="https://www.youtube.com/channel/UC0TMAn1gR83mykrSQmnoAAQ">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a class="btn" href="https://www.instagram.com/codepretzel/">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a class="btn" href="https://www.reddit.com/r/codepretzel/">
-                <i class="fab fa-reddit"></i>
-            </a>            
-            <a class="btn" href="https://www.reddit.com/r/codepretzel/">
-                <i class="fab fa-discord"></i>
-            </a>
+        <div id="actividades" class="section text-center row align-items-center" style="background-color:aquamarine;">
+            <h2>Actividades</h2>
+            <p>
+                A menos que se especifique lo contrario en el evento en particular
+                que se esté publicitando, las actividades tienen las siguientes
+                características. Se realizan en la sección de eventos virtuales en
+                el canal Sala de reuniones de nuestro servidor de Discord Son los
+                Sábados a las 12:30 PM hora Tijuana México (PST/PDT)
+            </p>
         </div>
-        <div>
-            <span class="footer-settings text-center">copyright@CodePretzel 2021</span>
+        <div id="historia" class="section text-center row " style="background-color:blanchedalmond;">
+
+        <h2>Historia</h2>
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yBSf19HaA8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
 
         </div>
-    </footer>
+    </div>
+        <footer id="siguenos" class="footer mt-5 text-center custom-footer">
+            <div class="container">
+                <a class="btn" href="https://www.facebook.com/CoDePretzel/">
+                    <i class="fab fa-facebook"> </i>
+                </a>
+                <a class="btn" href="https://www.youtube.com/channel/UC0TMAn1gR83mykrSQmnoAAQ">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a class="btn" href="https://www.instagram.com/codepretzel/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn" href="https://www.reddit.com/r/codepretzel/">
+                    <i class="fab fa-reddit"></i>
+                </a>
+                <a class="btn" href="https://discord.gg/K33P2d3amW">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+            <div>
+                <span class="footer-settings text-center">Code Pretzel @ 2021</span>
+               
+            </div>
+        </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
