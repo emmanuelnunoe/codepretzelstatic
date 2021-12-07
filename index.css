@@ -18,7 +18,7 @@
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
-    height: 0;
+    height: 100%;
 }
 
     .iframe-container iframe {
@@ -71,81 +71,95 @@ body {
 
 .home-title {
     padding-block-start: 10%;
-    text-align:left;
-    font-size:8vh;
-    font-weight:bolder;
-    font-family: 'Roboto Condensed';
+    text-align: left;
+    font-size: 8vh;
+    font-weight: bolder;
+    font-family: 'Open Sans';
+    animation: fadein 2s;
 }
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 .fas{
     font-size:10vh;
+    margin-bottom:2%;
+    text-align:center;
 }
 /* Icons */
-.objective-img {
-    background-color: rgb(128, 128, 128, 0.22);
-    background-image: url('./img/pcb_code_pretzel.jpg');
-  
-}
 
-.dream-img, .objective-img {
-    background-repeat: no-repeat;
-    height: contain;
-    width: contain;
-    background-blend-mode: hard-light;
-    min-height: 56%;
-    position: relative;
-    background-position-x: 80%;
-    background-size: cover;
-}
 
-.dream-img {
-    background-color: rgb(128, 128, 128, 0.22);
-    background-image: url('./img/smart-microchip-background-on-motherboard-closeup-technology.jpg');
-
-}
-
-.objective-icon{
-   padding-left:3%;
-}
-
-.dream-wrapper div{
-    padding:2%;
-}
-
-.dream-wrapper #dream-icon {
+#dream-icon {
     color: white;
     background-color: #4873aa;
     align-items: center;
 }
 
-.objective-wraper p{
-    text-align: left;
-    padding-top: 0;
-    margin: 0;
+.activities-wrapper {
+    background-color: #53a5c8;
 }
-.objective-wraper h2{
-    text-align:left;
+.objective-wraper {
+    background-color: #f8f9fa;
 }
 
-.objective-wraper p, .objective-wraper h2 {
-    padding-left: 3%;
-}
+
 
 /* Seccion */
 .section {
-    width: auto;
-    height: 98vh;
+    width:100%;
+    height:100%;
+   margin:.5%;
 }
 
-.section-title{
-    font-size:6vh;
-    font-family:Roboto;
+.col {
+    margin-right:2%;
+}
+
+.section-title {
+    font-size: 6vh;
+    font-family: 'Open Sans';
+   text-align:center;
 }
 .section p {
-    font-size: 4vh;
-    font-family:Roboto;
+    padding:5%;
+    font-size: 3.5vh;
+    font-family:'Open Sans';
 }
 
+.section img{
+    width:100%;
+    height:100%;
+}
+
+#historia {
+    background-color: #f8f9fa;
+}
+
+/*row*/
 .row {
-    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0!important;
+        height:100%;
+}
+
+
+.go-discord {
+    font-size: 6vw;
+
+}
+
+
+.container {
+    width: 99% !important;
+    max-width:99% !important;
+}
+
+.img-code-share {
+    width:70% !important;
+    height:100% !important;
 }
