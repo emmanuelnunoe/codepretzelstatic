@@ -97,23 +97,34 @@ body {
 
 #dream-icon {
     color: white;
-    background-color: #4873aa;
     align-items: center;
 }
-
+.img-dream-pcb {
+    border-radius: 50%;
+    width:42vw;
+    height:40vw;
+    transform: rotateX(40deg);
+    transform: rotateY(20deg);
+    border: 1vw solid rgb(59, 91, 152);
+}
+.dream-section {
+    background-color: #1a4071;
+    padding:2%;
+}
 .activities-wrapper {
     background-color: #53a5c8;
 }
 .objective-wraper {
     background-color: #f8f9fa;
 }
-
-
+.community-header {
+    background-color: #396fb54f;
+}
 
 /* Seccion */
 .section {
     width:100%;
-    height:100%;
+    height:100vh;
     margin-top:3%;
     margin-block:.5%;
 }
@@ -129,10 +140,6 @@ body {
     font-family:'Open Sans';
 }
 
-.section img{
-    width:100%;
-    height:100%;
-}
 
 #historia {
     background-color: #f8f9fa;
@@ -147,8 +154,8 @@ body {
 
 .go-discord {
     font-size: 6vw;
-
 }
+
 
 
 .container {
@@ -156,7 +163,8 @@ body {
     max-width:99% !important;
 }
 
-.img-code-share {
-    width:70% !important;
-    height:100% !important;
+.share-code-img {
+    background-image: url("./img/share.png");
+    background-position:center;
+    background-repeat:no-repeat;
 }
