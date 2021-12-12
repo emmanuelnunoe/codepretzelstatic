@@ -34,6 +34,7 @@
 body {
     scroll-behavior: smooth;
     background-color: #f4f4f4;
+    margin:0;
 }
 
 /* Footer */
@@ -107,7 +108,7 @@ body {
     height: 80%;
     border: 1vw solid lightgray;
 }
-.dream-section {
+.dream-section, .history-section {
     background-color: #4773a8;
     padding: 2%;
 }
@@ -117,13 +118,10 @@ body {
 .objective-wraper {
     background-color: #f8f9fa;
 }
-.community-header, .history-wrapper {
+.community-header,  .history-header {
     background-color: #396fb54f;
 }
 
-#historia {
-    background-color: #4773a8;
-}
 
 /* Seccion */
 .section {
@@ -139,7 +137,7 @@ body {
    text-align:center;
 }
 .section p {
-    padding:5%;
+
     font-size: 2rem;
     font-family:'Open Sans';
 }
@@ -161,6 +159,6 @@ body {
 
 .container {
     width: 100% !important;
-    max-width:99% !important;
+    max-width:100% !important;
 }
 
