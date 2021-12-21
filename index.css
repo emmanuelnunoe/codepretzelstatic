@@ -90,7 +90,6 @@ body {
 }
 /* Icons */
 
-
 #dream-icon {
     color: white;
     align-items: center;
@@ -98,7 +97,7 @@ body {
 .img-dream-pcb {
     width: 65%;
     height: 70%;
-    border: 1vw solid #5f81aa;
+    border: 1vw solid #3B6E8A;
 }
 .img-activities, .img-dream-pcb {
     border-radius: 50%;
@@ -106,20 +105,20 @@ body {
 .img-activities {
     width: 65%;
     height: 80%;
-    border: 1vw solid lightgray;
+    border: 1vw solid #3B6E8A;
 }
 .dream-section, .history-section {
-    background-color: #4773a8;
+    background-color: #203B4A;
     padding: 2%;
 }
 .activities-wrapper {
     background-color: #53a5c8;
 }
 .objective-wraper {
-    background-color: #f8f9fa;
+    background-color: #4C8DB0;
 }
-.community-header,  .history-header {
-    background-color: #396fb54f;
+.community-header, .history-header {
+    background-color: #4C8DB0;
 }
 
 
