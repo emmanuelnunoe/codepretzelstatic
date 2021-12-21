@@ -1,10 +1,10 @@
 
 .logo {
-    width: 60%;
-    max-width: 60%;
-    max-height: 96%;
+    width: 80%;
+    max-width: 80%;
+    max-height: 96vh;
     min-height:89%;
-    left:50%
+    left:20%
 }
 
 .iframe-container {
