@@ -42,9 +42,7 @@ body {
     background-color: #f8f9fa;
 }
 
-
 /* footer icons*/
-
 .fa, .fab{
    font-size:4vh;
 }
@@ -63,7 +61,6 @@ body {
 .fa-discord{
     color:rgb(88,101,242)
 }
-
 
 .home-title {
     padding-block-start: 15%;
@@ -121,13 +118,10 @@ body {
     background-color: #4C8DB0;
 }
 
-
 /* Seccion */
 .section {
     width:100%;
     height:100vh;
-    margin-top:2%;
-    margin-block:.5%;
 }
 
 .section-title {
@@ -136,19 +130,15 @@ body {
    text-align:center;
 }
 .section p {
-
     font-size: 2rem;
     font-family:'Open Sans';
 }
-
-
 
 .row {
     --bs-gutter-x: 0important;
     --bs-gutter-y: 0!important;
         height:100%;
 }
-
 
 .go-discord {
     font-size: 6vw;
