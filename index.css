@@ -100,8 +100,8 @@ body {
     border-radius: 50%;
 }
 .img-activities {
-    width: 65%;
-    height: 80%;
+    width: 60vh;
+    height: 60vh;
     border: 1vw solid #3B6E8A;
 }
 .dream-section, .history-section {
@@ -120,6 +120,7 @@ body {
 
 /* Seccion */
 .section {
+    padding-top:2%;
     width:100%;
     height:100vh;
 }
