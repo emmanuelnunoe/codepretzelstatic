@@ -75,7 +75,7 @@ body {
     font-weight: bolder;
     font-family: 'Open Sans';
     animation: fadein 2s;
-    font-size: 10vh;
+    font-size: 3rem;
 }
 
 .home-subtitle {
