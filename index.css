@@ -112,7 +112,7 @@ body {
    
     background-color: #f8f9fa;
 }
-.padding-top {
+.padding-top-15 {
     padding-top:15%;
 }
 
@@ -130,10 +130,9 @@ body {
 .img-dream-pcb {
     width: 65%;
     height: 70%;
-    border: 1vw solid #3B6E8A;
 }
 .img-activities, .img-dream-pcb {
-    border-radius: 50%;
+    border-radius: 2%;
 }
 .img-activities {
     width: 60vh;
@@ -141,17 +140,14 @@ body {
     border: 1vw solid #3B6E8A;
 }
 
+/* Dream section */
 
-.dots{
-  background-image; url("")<
-  z-index:-4;
-  height:20%;
-  width:20%;
-}
 .dream-section{
     background-color: #203B4A;
     padding: 2%;
 }
+
+
 .history-section {
     background-color: #203B4A;
 }
@@ -163,7 +159,7 @@ body {
     background-color: #4C8DB0;
 }
 
-/* Seccion */
+/* Seccion General */
 .section {
     padding-top:2%;
     width:100%;
@@ -178,6 +174,9 @@ body {
 .section-title-left {
     text-align: left;
 }
+.text-right{
+    text-align: right;
+}
 .section p {
     font-size: 1.5rem;
     font-family:'Open Sans';
@@ -187,6 +186,10 @@ body {
     padding-right:2%;
 }
 
+.section-p-right {
+    text-align: right;
+    padding-right: 2%;
+}
 .row {
     --bs-gutter-x: 0important;
     --bs-gutter-y: 0!important;
