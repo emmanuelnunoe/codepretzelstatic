@@ -104,12 +104,16 @@ body {
 
 /* Objective  section*/
 .img-objective {
-    width: 45%;
-    height: 50%;
+    width: 18rem;
+    height: 20rem;
 }
 
 .objective-wraper {
+   
     background-color: #f8f9fa;
+}
+.padding-top {
+    padding-top:15%;
 }
 
 .border-right {
@@ -169,11 +173,18 @@ body {
 .section-title {
     font-size: 3rem;
     font-family: 'Open Sans';
-   text-align:center;
+    text-align:center;
+}
+.section-title-left {
+    text-align: left;
 }
 .section p {
     font-size: 1.5rem;
     font-family:'Open Sans';
+}
+.section-p-left {
+    text-align: left;
+    padding-right:2%;
 }
 
 .row {
