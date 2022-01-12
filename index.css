@@ -129,17 +129,19 @@ body {
     color: white;
     align-items: center;
 }
+
 .img-dream-pcb {
     width: 65%;
     height: 70%;
 }
+
 .img-activities, .img-dream-pcb {
     border-radius: 2%;
 }
+
 .img-activities {
     width: 60vh;
-    height: 60vh;
-    border: 1vw solid #3B6E8A;
+    height: 40vh;
 }
 
 /* Dream section */
@@ -149,10 +151,10 @@ body {
     padding: 2%;
 }
 
-
 .history-section {
     background-color: #203B4A;
 }
+
 .activities-wrapper {
     background-color: #53a5c8;
 }
@@ -173,16 +175,20 @@ body {
     font-family: 'Open Sans';
     text-align:center;
 }
+
 .section-title-left {
     text-align: left;
 }
+
 .text-right{
     text-align: right;
 }
+
 .section p {
     font-size: 1.5rem;
     font-family:'Open Sans';
 }
+
 .section-p-left {
     text-align: left;
     padding-right:2%;
@@ -192,6 +198,7 @@ body {
     text-align: right;
     padding-right: 2%;
 }
+
 .row {
     --bs-gutter-x: 0important;
     --bs-gutter-y: 0!important;
@@ -201,8 +208,6 @@ body {
 .go-discord {
     font-size: 6vw;
 }
-
-
 
 .container {
     width: 100% !important;
