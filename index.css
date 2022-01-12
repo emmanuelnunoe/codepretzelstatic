@@ -61,13 +61,12 @@ body {
     min-height: 89%;
 }
 
-.home-logo{
-    text-align:right;
-    padding-top:3%;
-    width:30%;
-    height:30%;
+.home-logo {
+    text-align:center;
+    padding-top: 3%;
+    width: 30%;
+    height: 30%;
 }
-
 .home-title {
     margin-top: 0px;
     padding-inline-start: 5%;
@@ -112,14 +111,17 @@ body {
    
     background-color: #f8f9fa;
 }
-.padding-top-15 {
-    padding-top:15%;
+.padding-top-10 {
+    padding-top:10%;
 }
 
 .border-right {
     border-right: solid 20px #4C8DB0;
 }
 
+.border-left {
+    border-left: solid 20px #4C8DB0;
+}
 
 /* Icons */
 
