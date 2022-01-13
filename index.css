@@ -1,20 +1,4 @@
 
-.iframe-container {
-    position: relative;
-    width: 70%;
-    padding-bottom: 56.25%;
-    padding-block-start:30%;
-    height: 70%;
-}
-
-    .iframe-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
@@ -27,31 +11,6 @@ body {
     scroll-behavior: smooth;
     background-color: #f4f4f4;
     margin:0;
-}
-
-/* Footer */
-.custom-footer {
-    background-color: #f8f9fa;
-}
-
-/* footer icons*/
-.fa, .fab{
-   font-size:4vh;
-}
-
-.fa-facebook {
-    color: rgb(59, 91, 152);
-}
-
-.fa-youtube {
-    color: rgb(196, 48, 43);
-}
-.fa-reddit {
-    color: rgb(255, 86, 0);
-}
-
-.fa-discord{
-    color:rgb(88,101,242)
 }
 
 /* Home section*/
@@ -83,6 +42,7 @@ body {
     font-family: 'Open Sans';
     animation: fadein 4s;
 }
+
 /* Title animation*/
 @keyframes fadein {
     from {
@@ -123,11 +83,16 @@ body {
     border-left: solid 20px #4C8DB0;
 }
 
-/* Icons */
 
-#dream-icon {
-    color: white;
-    align-items: center;
+
+
+
+/* Dream section */
+
+.dream-section {
+    background-color: #203B4A;
+    padding: 2%;
+    color: #EDEDED;
 }
 
 .img-dream-pcb {
@@ -135,33 +100,25 @@ body {
     height: 70%;
 }
 
-.img-activities, .img-dream-pcb {
-    border-radius: 2%;
+
+/* History section */
+.history-section {
+    background-color: #EDEDED;
 }
 
+/* Activities section */
+.activities-wrapper {
+    background-color: #53a5c8;
+}
 .img-activities {
     width: 60vh;
     height: 40vh;
 }
-
-/* Dream section */
-
-.dream-section{
-    background-color: #203B4A;
-    padding: 2%;
+.img-activities, .img-dream-pcb {
+    border-radius: 2%;
 }
 
-.history-section {
-    background-color: #203B4A;
-}
 
-.activities-wrapper {
-    background-color: #53a5c8;
-}
-
-.community-header, .history-header {
-    background-color: #4C8DB0;
-}
 
 /* Seccion General */
 .section {
@@ -205,12 +162,54 @@ body {
         height:100%;
 }
 
-.go-discord {
-    font-size: 6vw;
-}
-
 .container {
     width: 100% !important;
     max-width:100% !important;
 }
 
+
+/* Iframe settings*/
+.iframe-container {
+    position: relative;
+    width: 80%;
+    padding-bottom: 56.25%;
+    padding-block-start: 30%;
+    height: 60%;
+}
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+/* Footer */
+.custom-footer {
+    background-color: #f8f9fa;
+}
+
+/* footer icons*/
+.fa, .fab {
+    font-size: 4vh;
+}
+
+.fa-facebook {
+    color: rgb(59, 91, 152);
+}
+
+.fa-youtube {
+    color: rgb(196, 48, 43);
+}
+
+.fa-reddit {
+    color: rgb(255, 86, 0);
+}
+
+.fa-discord {
+    color: rgb(88,101,242)
+}
