@@ -10,14 +10,14 @@
 body {
     scroll-behavior: smooth;
     background-color: #f4f4f4;
-    margin:0;
+    margin: 0;
+    font-family: 'Open Sans';
 }
 
 /* Home section*/
 .home-pcb {
     width: 100%;
-    max-height: 100vh;
-    min-height: 89%;
+    height: 100%;
 }
 
 .home-logo {
@@ -28,24 +28,13 @@ body {
 }
 .home-title {
     margin-top: 0px;
-    padding-inline-start: 5%;
-    text-align: left;
-    font-weight: bolder;
-    font-family: 'Open Sans';
     animation: fadein 2s;
     font-size: 3rem;
 }
 
 .home-subtitle {
-    padding-inline-start: 5%;
-    text-align: left;
-    font-family: 'Open Sans';
     animation: fadein 4s;
 }
-.btn-contacto{
-    padding-left:4%;
-}
-
 /* Title animation*/
 @keyframes fadein {
     from {
@@ -66,7 +55,7 @@ body {
 
 /* Objective  section*/
 .img-objective {
-    width: 18rem;
+    width: 70%;
     height: auto;
   
 }
@@ -102,7 +91,7 @@ body {
     width: 70%;
     height: auto;
 }
-.img-activities, .img-dream-pcb {
+.img-activities, .img-dream-pcb, .img-objective{
     border-radius: 2%;
 }
 
@@ -115,7 +104,6 @@ body {
 
 .section-title {
     font-size: 3rem;
-    font-family: 'Open Sans';
 }
 
 .text-left {
@@ -128,7 +116,6 @@ body {
 
 .section p {
     font-size: 1.5rem;
-    font-family:'Open Sans';
 }
 
 
@@ -148,11 +135,11 @@ body {
 }
 
 .border-right {
-    border-right: solid 20px #4C8DB0;
+    border-right: solid 10px #4C8DB0;
 }
 
 .border-left {
-    border-left: solid 20px #4C8DB0;
+    border-left: solid 10px #4C8DB0;
 }
 .img-wrapper {
     text-align: center;
@@ -164,7 +151,7 @@ body {
     width: 80%;
     padding-bottom: 56.25%;
     padding-block-start: 30%;
-    height: 60%;
+    height: 70%;
 }
 
     .iframe-container iframe {
