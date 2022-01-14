@@ -1,0 +1,214 @@
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #f4f4f4;
+    margin:0;
+}
+
+/* Home section*/
+.home-pcb {
+    width: 100%;
+    max-height: 100vh;
+    min-height: 89%;
+}
+
+.home-logo {
+    text-align:center;
+    padding-top: 3%;
+    width: 30%;
+    height: 30%;
+}
+.home-title {
+    margin-top: 0px;
+    padding-inline-start: 5%;
+    text-align: left;
+    font-weight: bolder;
+    font-family: 'Open Sans';
+    animation: fadein 2s;
+    font-size: 3rem;
+}
+
+.home-subtitle {
+    padding-inline-start: 5%;
+    text-align: left;
+    font-family: 'Open Sans';
+    animation: fadein 4s;
+}
+.btn-contacto{
+    padding-left:4%;
+}
+
+/* Title animation*/
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fas {
+    font-size: 10vh;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+
+/* Objective  section*/
+.img-objective {
+    width: 18rem;
+    height: auto;
+}
+
+.objective-wraper {
+   
+    background-color: #f8f9fa;
+}
+.padding-top-10 {
+    padding-top:10%;
+}
+
+.border-right {
+    border-right: solid 20px #4C8DB0;
+}
+
+.border-left {
+    border-left: solid 20px #4C8DB0;
+}
+
+/* Dream section */
+
+.dream-section {
+    background-color: #203B4A;
+    padding: 2%;
+    color: #EDEDED;
+}
+
+.img-dream-pcb {
+    width: 75%;
+    height: auto;
+}
+
+
+/* History section */
+.history-section {
+    background-color: #EDEDED;
+}
+
+/* Activities section */
+.activities-wrapper {
+    background-color: #53a5c8;
+}
+.img-activities {
+    width: 70%;
+    height: auto;
+}
+.img-activities, .img-dream-pcb {
+    border-radius: 2%;
+}
+
+
+
+/* Seccion General */
+.section {
+    padding-top:2%;
+    width:100%;
+    height:100vh;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-family: 'Open Sans';
+    text-align:center;
+}
+
+.section-title-left {
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.section p {
+    font-size: 1.5rem;
+    font-family:'Open Sans';
+}
+
+.section-p-left {
+    text-align: left;
+    padding-right:2%;
+}
+
+.section-p-right {
+    text-align: right;
+    padding-right: 2%;
+}
+
+.row {
+    --bs-gutter-x: 0important;
+    --bs-gutter-y: 0!important;
+        height:100%;
+}
+
+.container {
+    width: 100% !important;
+    max-width:100% !important;
+}
+
+
+/* Iframe settings*/
+.iframe-container {
+    position: relative;
+    width: 80%;
+    padding-bottom: 56.25%;
+    padding-block-start: 30%;
+    height: 60%;
+}
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+/* Footer */
+.custom-footer {
+    background-color: #f8f9fa;
+}
+
+/* footer icons*/
+.fa, .fab {
+    font-size: 4vh;
+}
+
+.fa-facebook {
+    color: rgb(59, 91, 152);
+}
+
+.fa-youtube {
+    color: rgb(196, 48, 43);
+}
+
+.fa-reddit {
+    color: rgb(255, 86, 0);
+}
+
+.fa-discord {
+    color: rgb(88,101,242)
+}
