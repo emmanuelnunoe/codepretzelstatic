@@ -1,2 +1,6 @@
 /.vs
 CodePretzelWeb/
+.firebase
+/js/firebase.js
+.firebase.json
+.firebaserc
