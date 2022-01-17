@@ -59,27 +59,15 @@ body {
 
 
 /* Objective  section*/
-.img-objective {
-    width: 70%;
-    height: auto;
-  
-}
-
 .objective-wraper {
     background-color: #f8f9fa;
 }
 
 
 /* Dream section */
-
 .dream-section {
     background-color: #203B4A;
     color: #EDEDED;
-}
-
-.img-dream-pcb {
-    width: 75%;
-    height: auto;
 }
 
 
@@ -92,8 +80,8 @@ body {
 .activities-wrapper {
     background-color: #53a5c8;
 }
-.img-activities {
-    width: 70%;
+.img-activities, .img-dream-pcb, .img-objective {
+    width: 75%;
     height: auto;
 }
 .img-activities, .img-dream-pcb, .img-objective{
@@ -153,10 +141,10 @@ body {
 /* Iframe settings*/
 .iframe-container {
     position: relative;
-    width: 80%;
+    width: 75%;
     padding-bottom: 56.25%;
     padding-block-start: 30%;
-    height: 70%;
+    height: auto;
 }
 
     .iframe-container iframe {
