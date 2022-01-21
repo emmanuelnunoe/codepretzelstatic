@@ -17,11 +17,11 @@ body {
 /* Home section*/
 
 .home-logo {
-    padding-top: 5%;
+    margin-top: 5%;
     text-align: center;
-    width: 15rem;
+    width:25vh;
     height: auto;
-    max-width: 100%;
+    max-width: 90%;
     object-position:center;
     object-fit:contain;
 }
@@ -32,9 +32,10 @@ body {
 }
 
 .home-background {
+    margin-top:1%;
     color: white;
     background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1)), url("../img/v617batch2-kul-05-technology.jpg");
-background-position-x:50%;
+    background-position-x:50%;
     width: 100%;
     max-width: 100%;
     height: auto;
