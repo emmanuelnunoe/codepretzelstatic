@@ -11,25 +11,19 @@ body {
     scroll-behavior: smooth;
     background-color: #f4f4f4;
     margin: 0;
-    font-family: 'Open Sans';
+    font-family: Roboto;
 }
 
 /* Home section*/
-.home-pcb {
-    width: 100%;
-    object-position:center;
-    object-fit: none;
-    max-height: 100%;
-    margin-bottom: 1rem;
-}
-.home-pcb-wrapper{
-    height:30%;
-}
+
 .home-logo {
-    text-align:center;
-    padding-top: 3%;
-    width: 20%;
-    height:20%;
+    margin-top: 5%;
+    text-align: center;
+    width:25vh;
+    height: auto;
+    max-width: 90%;
+    object-position:center;
+    object-fit:contain;
 }
 .home-title {
     margin-top: 0px;
@@ -37,6 +31,17 @@ body {
     font-size: 3rem;
 }
 
+.home-background {
+    margin-top:1%;
+    color: white;
+    background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1)), url("../img/v617batch2-kul-05-technology.jpg");
+    background-position-x:50%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-position: center;
+    object-fit: none;
+}
 .home-subtitle {
     animation: fadein 4s;
 }
@@ -144,7 +149,7 @@ body {
     width: 75%;
     padding-bottom: 56.25%;
     padding-block-start: 30%;
-    height: auto;
+    height: 100%;
 }
 
     .iframe-container iframe {
@@ -152,7 +157,8 @@ body {
         top: 5%;
         left: 15%;
         width: 100%;
-        height: 100%;
+        height: 75%;
+        border-radius:2%;
     }
 
 
