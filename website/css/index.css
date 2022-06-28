@@ -175,7 +175,7 @@ body {
 }
 
 .fa-facebook {
-    color: rgb(59, 91, 152);
+    color: rgb(25 119 242)
 }
 
 .fa-youtube {
@@ -188,4 +188,12 @@ body {
 
 .fa-discord {
     color: rgb(88,101,242)
+}
+.fa-twitter {
+    color: rgb(43 155 240)
+}
+
+
+a{
+    text-decoration: none;
 }
