@@ -11,20 +11,21 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:1;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 body {
     scroll-behavior: smooth;
     background-color: #f4f4f4;
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 /* Home section*/
 
 .home-logo {
-    margin-top: 5%;
+    margin-top: 10%;
     text-align: center;
     width:25vh;
     height: auto;
@@ -40,9 +41,10 @@ body {
 }
 
 .home-background {
+    margin-top: 1%;
     color: white;
     background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1)), url("../img/v617batch2-kul-05-technology.jpg");
-    background-position-x:50%;
+    background-position-x: 50%;
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -211,9 +213,11 @@ a{
 @media (max-width:999px) {
     .logo-navbar{
         align-self:center;
-        width:10%;
+        width:15%;
     }
-}
+    .home-logo {
+        margin-top: 20%;
+    }
 
 .navbar-light .navbar-brand{
     font-size:1.5rem;
